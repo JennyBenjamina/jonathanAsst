@@ -19,7 +19,6 @@ COHERE = os.getenv('COHERE_KEY')
 
 # co = cohere.Client(COHERE)
 
-print(COHERE)
 
 openai.api_key = os.getenv("OPEN_AI_KEY")
 UPLOAD_FOLDER = './files'
