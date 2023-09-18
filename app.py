@@ -8,10 +8,10 @@ from pdfminer.high_level import extract_text
 from PyPDF2 import PdfReader
 from werkzeug.utils import secure_filename
 
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 
-load_dotenv()
+# load_dotenv()
 
 
 # COHERE = os.environ.get('COHERE_KEY')
