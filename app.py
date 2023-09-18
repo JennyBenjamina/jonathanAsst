@@ -19,7 +19,9 @@ COHERE = os.getenv('COHERE_KEY')
 
 # co = cohere.Client(COHERE)
 
-openai.api_key = os.getenv("OPEN_AI_SECRET")
+print(COHERE)
+
+openai.api_key = os.getenv("OPEN_AI_KEY")
 UPLOAD_FOLDER = './files'
 app = Flask(__name__)
 # app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
