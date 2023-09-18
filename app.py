@@ -6,7 +6,7 @@ import cohere
 import openai
 from pdfminer.high_level import extract_text
 from PyPDF2 import PdfReader
-from werkzeug.utils import secure_filenamec
+from werkzeug.utils import secure_filename
 
 from dotenv import load_dotenv
 
