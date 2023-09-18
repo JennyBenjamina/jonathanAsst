@@ -17,7 +17,7 @@ load_dotenv()
 # COHERE = os.environ.get('COHERE_KEY')
 COHERE = os.getenv('COHERE_KEY')
 
-co = cohere.Client(COHERE)
+# co = cohere.Client(COHERE)
 
 openai.api_key = os.getenv("OPEN_AI_SECRET")
 UPLOAD_FOLDER = './files'
